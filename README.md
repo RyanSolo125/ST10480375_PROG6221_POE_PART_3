@@ -59,17 +59,17 @@ ST10480375_PROG6221_POE_PART_2/
 - Activity Log — tracks and displays the last 10 actions taken in the chatbot
 
 ### Commands
-- `add task [description]` — add a cybersecurity task
-- `view tasks` — see all your tasks
-- `complete task [number]` — mark a task as done
-- `delete task [number]` — remove a task
-- `start quiz` — launch the cybersecurity quiz
-- `show activity log` — view recent chatbot actions
+- add task [description] — add a cybersecurity task
+- view tasks — see all your tasks
+- complete task [number] — mark a task as done
+- delete task [number] — remove a task
+- start quiz — launch the cybersecurity quiz
+- show activity log — view recent chatbot actions
 
 ### Database Setup
 1. Open SQL Server Management Studio
-2. Run `database.sql` to create the database and table
-3. Update the connection string in `DatabaseHelper.cs` with your server name
+2. Run database.sql to create the database and table
+3. Update the connection string in DatabaseHelper.cs with your server name
 4. Build and run
 
 ### Project Structure
