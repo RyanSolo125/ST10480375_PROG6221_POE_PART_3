@@ -73,7 +73,7 @@ ST10480375_PROG6221_POE_PART_2/
 4. Build and run
 
 ### Project Structure
-```
+
 ST10480375_PROG6221_POE_PART_3/
 ├── Memory.cs
 ├── ActivityLog.cs
@@ -84,7 +84,6 @@ ST10480375_PROG6221_POE_PART_3/
 ├── MainWindow.xaml.cs
 ├── database.sql
 └── README.md
-```
 
 
 Youtube link: 
