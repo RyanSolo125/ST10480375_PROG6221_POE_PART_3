@@ -48,4 +48,43 @@ ST10480375_PROG6221_POE_PART_2/
 └── README.md
 
 
-Youtube link: https://youtu.be/DlUgY8x4M_k
+---
+
+## Part 3 — POE Final Submission
+
+### New Features Added
+- Task Assistant — add, view, complete and delete cybersecurity tasks stored in SQL Server
+- Cybersecurity Quiz — 12 questions, multiple choice and true/false with final score and feedback
+- NLP Simulation — recognises different ways users phrase the same request
+- Activity Log — tracks and displays the last 10 actions taken in the chatbot
+
+### Commands
+- `add task [description]` — add a cybersecurity task
+- `view tasks` — see all your tasks
+- `complete task [number]` — mark a task as done
+- `delete task [number]` — remove a task
+- `start quiz` — launch the cybersecurity quiz
+- `show activity log` — view recent chatbot actions
+
+### Database Setup
+1. Open SQL Server Management Studio
+2. Run `database.sql` to create the database and table
+3. Update the connection string in `DatabaseHelper.cs` with your server name
+4. Build and run
+
+### Project Structure
+```
+ST10480375_PROG6221_POE_PART_3/
+├── Memory.cs
+├── ActivityLog.cs
+├── DatabaseHelper.cs
+├── QuizManager.cs
+├── Chatbot.cs
+├── MainWindow.xaml
+├── MainWindow.xaml.cs
+├── database.sql
+└── README.md
+```
+
+
+Youtube link: 
