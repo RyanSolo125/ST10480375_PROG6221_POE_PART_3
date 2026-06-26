@@ -74,7 +74,7 @@ ST10480375_PROG6221_POE_PART_2/
 
 ### Project Structure
 
-ST10480375_PROG6221_POE_PART_3/
+ST10480375_PROG6221_POE_PART_3
 ├── Memory.cs
 ├── ActivityLog.cs
 ├── DatabaseHelper.cs
