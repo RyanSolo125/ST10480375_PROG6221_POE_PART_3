@@ -15,7 +15,7 @@ namespace ST10480375_PROG6221_POE_PART_3
 
     public class DatabaseHelper
     {
-        // replace YOUR_SERVER_NAME with your server name from SSMS
+       
         private string connectionString =
             "Server=LabVM2049939\\SQLEXPRESS;Database=ccp_chatbot;Integrated Security=True;";
 

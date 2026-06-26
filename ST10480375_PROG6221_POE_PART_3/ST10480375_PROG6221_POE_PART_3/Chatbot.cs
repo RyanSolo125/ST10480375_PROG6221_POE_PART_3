@@ -140,7 +140,7 @@ namespace ST10480375_PROG6221_POE_PART_3
                 return activityLog.GetLog();
             }
 
-            // quiz triggers — NLP recognises different ways to say the same thing
+            // quiz triggers
             if (input.Contains("start quiz") || input.Contains("take quiz") ||
                 input.Contains("play quiz") || input.Contains("test me") ||
                 input.Contains("quiz me") || input.Contains("begin quiz"))
@@ -149,7 +149,7 @@ namespace ST10480375_PROG6221_POE_PART_3
                 return quiz.Start();
             }
 
-            // task: add — NLP recognises different phrasings
+            // adding tasks
             if (input.Contains("add task") || input.Contains("create task") ||
                 input.Contains("new task") || input.Contains("set a task") ||
                 input.Contains("remind me to") || input.Contains("set reminder") ||
